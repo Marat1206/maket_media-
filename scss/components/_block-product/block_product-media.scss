@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .block_product{
+    .block_product_wrapper{
+      .items_img{
+        img{
+          width: 50%;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .block_product{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

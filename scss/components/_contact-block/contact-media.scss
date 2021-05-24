@@ -1,0 +1,139 @@
+@media (max-width: 1250px) {
+  .contact{
+    .contact_wrapper{
+      input{
+        padding: 15px 5px 15px 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact{
+    .form{
+      .message{
+        width: 50%;
+      }
+    }
+  }
+  .contact{
+    .contact_wrapper{
+      .contact_info{
+        width: 50%;
+        height: 523px;
+      }
+    }
+  }
+
+  .contact_info{
+    .contact_info_wrapper{
+      text-align: center;
+    }
+  }
+
+  .contact{
+    .data{
+      display: inline-block;
+      input:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .contact{
+    .data{
+      input {
+        padding: 15px 30px 15px 30px;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .contact{
+    .btn_4{
+      padding: 20px;
+    }
+  }
+
+  input::placeholder{
+    text-align: center;
+  }
+
+  textarea::placeholder{
+    text-align: center;
+    padding: 0;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+.contact{
+  .contact_wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+ }
+  .contact{
+    .contact_text, .border {
+      width: 100%;
+    }
+  }
+  .contact{
+    .form{
+      .message{
+        width: 100%;
+      }
+    }
+  }
+
+  .contact{
+    .contact_wrapper{
+      .contact_info{
+        height: 420px;
+      }
+    }
+  }
+
+  .contact_info{
+    .contact_info_wrapper{
+      padding: 30px;
+      text-align: center;
+    }
+  }
+
+}
+
+@media (max-width: 480px) {
+  .contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact{
+    .form{
+      display: flex;
+      flex-direction: column;
+      .message{
+        padding-right: 0;
+      }
+    }
+  }
+
+  .contact{
+    .data{
+      width: 100%;
+    }
+  }
+
+  .contact{
+    .contact_wrapper{
+      .contact_info{
+        width: 100%;
+        padding-left: 100px;
+      }
+    }
+  }
+
+}
+

@@ -1,0 +1,68 @@
+.email{
+  background: #f5f0dd;
+  text-align: center;
+  padding: 140px 0;
+.email_wrapper {
+ }
+}
+
+.email{
+  .email_text, .email_prgf{
+    color: #fdfcf8;
+  }
+}
+
+.email{
+  .email_text{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
+}
+
+.email{
+  .email_prgf{
+    font-size: 10px;
+    padding-bottom: 50px;
+  }
+}
+
+.email{
+  margin-bottom: 90px;
+  input{
+    margin-right: 20px;
+    padding: 25px 300px 25px 25px;
+    border-radius: 5px;
+    border-color: transparent;
+    }
+  }
+
+.email{
+  .email_wrapper{
+    .email-adders{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .btn_3{
+        background: $main-color;
+        @extend %button-style;
+        text-decoration: none;
+        color: white;
+        padding: 30px 60px 30px 60px;
+        text-transform: uppercase;
+      }
+      }
+    }
+  }
+
+.email{
+  .email_wrapper{
+    .email-adders{
+      .btn_3:hover{
+        @include button(white,$main-color);
+        box-shadow: 0 0 10px 0 $main-color inset, 0 0 10px 4px $main-color;
+      }
+    }
+  }
+}

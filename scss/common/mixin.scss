@@ -1,0 +1,4 @@
+@mixin button($bg, $font){
+  background-color: $bg;
+  color: $font;
+}

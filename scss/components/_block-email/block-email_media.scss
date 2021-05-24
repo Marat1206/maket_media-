@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .email {
+    .email_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+  .email {
+    .email_wrapper {
+      .email-adders {
+        flex-wrap: wrap;
+
+        input {
+          text-align: center;
+          margin-right: 0;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .email{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

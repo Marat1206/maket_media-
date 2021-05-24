@@ -1,0 +1,22 @@
+footer{
+  background: #313030;
+  padding: 50px 0;
+  .footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+footer{
+  .left{
+    color: #949494;
+  }
+}
+
+footer{
+  a:not(:last-child){
+    padding-right: 15px;
+  }
+}
+
